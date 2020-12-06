@@ -1,0 +1,12 @@
+name: Documentation Tests
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+
+jobs:
+  test-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'hello'
